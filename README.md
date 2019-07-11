@@ -24,7 +24,7 @@ In this example we are Enabling CORS on our static website hosted on S3.
 * Go inside the 2nd bucket and upload load.html file in it.
 	* give it a public access and enable static website hosting.
 	* write the CORSConfiguration in this bucket.
-'''
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <CORSConfiguration xmlns="http://s3.amazonaws.com/doc/2006-03-01/">
 <CORSRule>
@@ -34,5 +34,5 @@ In this example we are Enabling CORS on our static website hosted on S3.
     <AllowedHeader>Authorization</AllowedHeader>
 </CORSRule>
 </CORSConfiguration>
-'''
+```
 * update index.html file by changing the `load("2ND BUCKET LINK HERE")`.
