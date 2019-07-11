@@ -35,4 +35,4 @@ In this example we are Enabling CORS on our static website hosted on S3.
 </CORSRule>
 </CORSConfiguration>
 ```
-* update index.html file by changing the `load("2ND BUCKET LINK HERE")`.
+* update index.html file by changing the `$("#loadDiv").load("2ND BUCKET LINK HERE")`.
